@@ -27,7 +27,7 @@ public class ProfileActivity extends AppCompatActivity {
         setContentView(R.layout.activity_profile);
 
         nombre = findViewById(R.id.nombreText);
-        acercaDe = findViewById(R.id.acercaDeText);
+        acercaDe = findViewById(R.id.acercaDeText); //el texto esta seleccionado
         proyectos = findViewById(R.id.proyectosText);
         repositorios = findViewById(R.id.repositoriosText);
         estrellas = findViewById(R.id.estrellasText);
@@ -37,9 +37,11 @@ public class ProfileActivity extends AppCompatActivity {
             usuarioActual = getIntent().getParcelableExtra(USUARIO_DATA);
             setTitle("Perfil de " + usuarioActual.getNombre());
 
+            usuarioActual.setAcercaDe("I'm a Videogame Developer, C# with Unity, C++ for Unreal Engine."); //poniendolo otra vez en caso de
+
             if(usuarioActual != null){
                 nombre.setText(String.valueOf(usuarioActual.getNombre()));
-                acercaDe.setText(String.valueOf(usuarioActual.getAcercaDe()));
+                acercaDe.setText(String.valueOf(usuarioActual.getAcercaDe()));// se supone que el texto se esta pasando
                 proyectos.setText(String.valueOf(usuarioActual.getProyectos()));
                 repositorios.setText(String.valueOf(usuarioActual.getRepositorios()));
                 estrellas.setText(String.valueOf(usuarioActual.getEstrellas()));

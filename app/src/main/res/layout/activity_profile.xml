@@ -47,14 +47,13 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="12dp"
         android:gravity="center"
-        android:text="Acerca de"
+        android:text="Usuario.AcercaDe"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textSize="18sp"
         android:textStyle="normal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nombreText"
-        tools:text="Acerca @android:string/defaultMsisdnAlphaTag" />
+        app:layout_constraintTop_toBottomOf="@+id/nombreText" />
 
     <Button
         android:id="@+id/shareData"

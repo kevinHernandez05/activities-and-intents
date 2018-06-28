@@ -6,26 +6,30 @@ import android.os.Parcelable;
 public class usuario implements Parcelable {
 
     private String nombre;
-    private String AcercaDe;
+    private String acercaDe;
     private String email;
     private int repositorios;
     private int estrellas;
     private int proyectos;
 
     public String getNombre() {
+
         return nombre;
     }
 
     public void setNombre(String nombre) {
+
         this.nombre = nombre;
     }
 
     public String getAcercaDe() {
-        return AcercaDe;
+
+        return acercaDe;
     }
 
     public void setAcercaDe(String acercaDe) {
-        AcercaDe = acercaDe;
+
+        this.acercaDe = acercaDe;
     }
 
     public String getEmail() {
@@ -60,7 +64,7 @@ public class usuario implements Parcelable {
     protected usuario(Parcel in) {
 
         this.nombre = in.readString();
-        this.AcercaDe = in.readString();
+        this.acercaDe = in.readString();
         this.email = in.readString();
         this.estrellas = in.readInt();
         this.proyectos = in.readInt();

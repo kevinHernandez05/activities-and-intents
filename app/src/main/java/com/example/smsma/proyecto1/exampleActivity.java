@@ -24,6 +24,7 @@ public class exampleActivity extends AppCompatActivity {
         setContentView(R.layout.activity_example);
 
         //Controles
+        setTitle("DominicanStack");
         Button btnButton = (Button) findViewById(R.id.btnLogin);
         this.textEmail = findViewById(R.id.nombreText);
         this.textPass = findViewById(R.id.passText);
