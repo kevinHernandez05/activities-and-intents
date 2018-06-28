@@ -28,4 +28,4 @@ Practica de Intents y Activities del Diplomado de Desarrollo de Aplicaciones Mov
 
 ### Data ya compartida por Whatsapp: 
 
-<img src="https://github.com/kevinHernandez05/activities-and-intents/blob/master/Screenshots/resultado.jpg" align="center" height="500px" width="282px"/>
+<img src="https://github.com/kevinHernandez05/activities-and-intents/blob/master/Screenshots/resultado.jpg" align="center" width="40%"/>
